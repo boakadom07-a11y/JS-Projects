@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+h1{
+    font-weight: bold;
+    font-size: 3.5em;
+    text-align: center;
+}
+#stop-container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    font-size: 1rem;
+    align-items: center;
+    border-radius: 60px;
+    padding: 20px;
+    background-color: antiquewhite;  
+}
+#stopwatch{
+    font-size: 10rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.773);
+    margin-bottom: 25px;
+    background-color: rgb(187, 217, 217);
+}
+#controls{
+    display: inline;
+    font-weight: bold;
+}
+#stop{
+    background-color: red;
+    padding: 30px;
+    /* padding-right: 80px; */
+    align-items: center;
+    text-align: center;
+    font-size: 3.5em;
+    border-radius: 30px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+#reset{
+    background-color: rgb(245, 245, 13);
+    padding: 30px;
+    /* padding-right: 80px; */
+    align-items: center;
+    text-align: center;
+    font-size: 3.5em;
+    border-radius: 30px;
+    border: 4px solid black;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(18, 179, 61);
+    padding: 30px;
+    /* padding-right: 80px; */
+    align-items: center;
+    text-align: center;
+    font-size: 3.5em;
+    border: 4px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#stop:hover{
+    background-color: rgb(244, 152, 152);
+}
+#start:hover{
+    background-color: rgb(136, 242, 136);
+}
+#reset:hover{
+    background-color: rgb(249, 249, 135);
+}

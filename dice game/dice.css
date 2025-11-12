@@ -1,0 +1,27 @@
+#container{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#butroll{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(16, 180, 239);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+#butroll:hover{
+    background-color: rgb(133, 27, 36);
+}
+#butroll:active{
+    background-color: rgb(44, 37, 144);
+}
+input{
+    width: 150px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
