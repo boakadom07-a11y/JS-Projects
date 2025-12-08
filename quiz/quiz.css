@@ -1,0 +1,133 @@
+/* =======================
+   Global styles
+======================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #333;
+}
+
+/* =======================
+   Quiz container
+======================= */
+#quiz-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+/* =======================
+   Question text
+======================= */
+#question {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* =======================
+   Answer buttons
+======================= */
+.answer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #dcdcdc;
+}
+
+/* Correct and Incorrect styles */
+.correct {
+  background-color: #4caf50 !important;
+  color: #fff;
+}
+
+.incorrect {
+  background-color: #f44336 !important;
+  color: #fff;
+}
+
+/* Disable button pointer after click */
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* =======================
+   Next button
+======================= */
+#next-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#next-btn:hover {
+  background-color: #0056b3;
+}
+
+/* =======================
+   Score display
+======================= */
+#quiz-container .score {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* =======================
+   Responsive adjustments
+======================= */
+@media (max-width: 450px) {
+  #quiz-container {
+    padding: 20px;
+  }
+
+  #question {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  #next-btn {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+header{
+    position: static;
+    /* position: fixed; */
+    width:auto;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px 40px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    box-sizing: border-box;
+}
+.firstnav{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.firstnav .dot{
+   width:45px;
+   height: 40px;
+   background-color:#f5b800;
+   border-radius: 50%;
+   display: inline-block;
+}
+.firstnav h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    gap: 25px;
+    margin-left: 50em;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 10px;
+    border-left: 1px solid #999; 
+    cursor: pointer;
+}
+nav a:first-child{
+    border-left: none;
+}
+nav a:hover{
+    color: #c2a550;
+    transition: color 0.3s ease;
+}
+.quote{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+.simp{
+    font-size: 1em;
+    font-weight: 500;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    margin: 50px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.contact{
+    font-size: 3.5em;
+    margin: 0;
+}
+.phone{
+    margin: 0;
+}
+.email{
+    margin: 0;
+}
+.form p{
+    margin: 0;
+    margin-bottom: 30px;
+}
+.firstform{
+    /* display: flex; */
+    gap: 30px;
+}
+.nameform{
+    display: block;
+}
+.nameform input{
+    width: auto;
+    height: 30px;
+    background-color: #999;
+}
+footer{
+    display: flex;
+    gap: 500px;
+    margin-top:100px ;
+    margin-left: 20px;
+    margin-right: 3px;
+    height: auto;
+    border-top: 1px solid black;
+    height:5em ;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ 
+}
